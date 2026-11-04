@@ -1,4 +1,8 @@
-n1=int(input('Enter n1 value : ')) 
-n2=int(input('Enter n2 value : '))
-print(n1)
-print(n2)
+age = 15 
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 1500
+else:
+    price = 2000
+print("Your admission cost is Rs" + str(price) + ".")

@@ -10,4 +10,4 @@ elif(Age>=13 and Age<20):
 elif(Age>=20 and Age<65):
     print("Adult")
 else:
-    print("Bass bai")
+    print("Elder")
